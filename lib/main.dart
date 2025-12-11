@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'GakumonHub Integrated',
+      title: 'Gaku! Integrated',
       theme: ThemeData(
         // Default theme
         primaryColor: const Color(0xFF102A43),
@@ -52,7 +52,7 @@ class RoleSelectionPage extends StatelessWidget {
             const Icon(Icons.school, size: 80, color: Color(0xFF102A43)),
             const SizedBox(height: 20),
             const Text(
-              "GakumonHub",
+              "Gaku!",
               style: TextStyle(
                 fontSize: 32,
                 fontWeight: FontWeight.bold,
@@ -140,7 +140,7 @@ class StudentLandingPage extends StatelessWidget {
             Icon(Icons.menu_book_rounded, color: Colors.white, size: 20),
             SizedBox(width: 8),
             Text(
-              "Gakumonhub",
+              "Gaku!",
               style: TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
@@ -265,7 +265,7 @@ class StudentLandingPage extends StatelessWidget {
                         ),
                         const SizedBox(height: 16),
                         const Text(
-                          '"Gakumonhub transformed my career! The content is practical and the mentors are amazing."',
+                          '"Gaku! transformed my career! The content is practical and the mentors are amazing."',
                           style: TextStyle(
                             fontStyle: FontStyle.italic,
                             color: Colors.black54,
@@ -389,7 +389,7 @@ class StudentLandingPage extends StatelessWidget {
               padding: const EdgeInsets.all(20),
               color: darkNavy,
               child: const Text(
-                "© 2024 Gakumonhub. Semua Hak Dilindungi.",
+                "© 2024 Gaku!. Semua Hak Dilindungi.",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   color: Colors.white70,
@@ -498,7 +498,7 @@ class StudentHomePage extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           const Text(
-                            "Gakumonhub",
+                            "Gaku!",
                             style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -507,7 +507,7 @@ class StudentHomePage extends StatelessWidget {
                           ),
                           const SizedBox(height: 10),
                           const Text(
-                            "Gakumonhub adalah platform bimbingan belajar terkemuka yang membantu Anda mencapai potensi penuh melalui pembelajaran interaktif.",
+                            "Gaku! adalah platform bimbingan belajar terkemuka yang membantu Anda mencapai potensi penuh melalui pembelajaran interaktif.",
                             style: TextStyle(
                               fontSize: 14,
                               color: greyText,
@@ -596,7 +596,7 @@ class StudentHomePage extends StatelessWidget {
             padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 16),
             color: darkNavy,
             child: const Text(
-              "© 2024 Gakumonhub. Semua Hak Dilindungi.",
+              "© 2024 Gaku!. Semua Hak Dilindungi.",
               textAlign: TextAlign.center,
               style: TextStyle(
                 color: Colors.white70,
@@ -631,7 +631,7 @@ class StudentCoursePage extends StatelessWidget {
             Icon(Icons.menu_book, color: Colors.white, size: 20),
             SizedBox(width: 8),
             Text(
-              'Gakumonhub',
+              'Gaku!',
               style: TextStyle(
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
@@ -776,7 +776,7 @@ class StudentCoursePage extends StatelessWidget {
               padding: const EdgeInsets.symmetric(vertical: 16),
               color: darkBlue,
               child: const Text(
-                '© 2024 Gakumonhub. Semua Hak Dilindungi.',
+                '© 2024 Gaku!. Semua Hak Dilindungi.',
                 textAlign: TextAlign.center,
                 style: TextStyle(color: Colors.white70, fontSize: 12),
               ),
@@ -1128,7 +1128,7 @@ class StudentCommonAppBar extends StatelessWidget implements PreferredSizeWidget
           Icon(Icons.menu_book, color: Colors.white, size: 20),
           SizedBox(width: 8),
           Text(
-            'Gakumonhub',
+            'Gaku!',
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
@@ -1220,7 +1220,7 @@ class StudentFooter extends StatelessWidget {
       padding: const EdgeInsets.symmetric(vertical: 16),
       color: const Color(0xFF13304A),
       child: const Text(
-        '© 2024 Gakumonhub. Semua Hak Dilindungi.',
+        '© 2024 Gaku!. Semua Hak Dilindungi.',
         textAlign: TextAlign.center,
         style: TextStyle(color: Colors.white70, fontSize: 12),
       ),
@@ -1239,7 +1239,7 @@ class AdminApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'GakumonHub Admin',
+      title: 'Gaku! Admin',
       theme: ThemeData(
         primaryColor: const Color(0xFF102A43),
         scaffoldBackgroundColor: Colors.grey[50],
